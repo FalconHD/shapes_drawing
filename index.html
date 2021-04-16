@@ -1,0 +1,59 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <section class="inputs">
+            <div class="card" id="Rectangle">
+                <div class="icon"><i class="material-icons md-36">check_box_outline_blank</i></div>
+                <p class="title">Rectangle</p>
+                
+            </div>
+            <div class="card" id="Triangle">
+                <div class="icon"><i class="material-icons md-36">change_history</i></div>
+                <p class="title">Triangle</p>
+                
+            </div>
+            <div class="card" id="Circule">
+                <div class="icon"><i class="material-icons md-36">brightness_1</i></div>
+                <p class="title">Circule</p>
+                
+            </div>
+            <div class="card" id="Line">
+                <div class="icon"><i class="material-icons md-36">linear_scale</i></div>
+                <p class="title">Line</p>
+                
+            </div>
+
+
+
+        </section>
+        <section class="draw">
+
+            <div class="card shape" id="shape"></div>
+        </section>
+        <section class="tools">
+            <div class="tool color">
+                <input type="color" name="" id="colorMe">
+            </div>
+            <div class="tool rotate">
+                <label for="rotate">Rotate me ?</label>
+                <input type="text" name="rotate" id="rotateMe">
+            </div>
+            <div class="tool remove">
+                <button id="removeMe">Remove Me !!</button>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>
+<script src="main.js"></script>
+</html>
